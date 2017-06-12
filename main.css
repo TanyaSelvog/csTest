@@ -1,0 +1,144 @@
+body {
+  font-family: "Arial Narrow", arial;
+}
+
+/*Top & Navbar*/
+#top {
+  font-size: 20px;
+  background-color: #FD742A;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+  background-color: white
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-default {
+  background-color: #FD742A;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: #FD742A;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #DB94F4;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: red;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: red;
+  background-color: #080808;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #333;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #DB94F4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #101010;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #DB94F4;
+  background-color: #080808;
+}
+
+#nameLogo {
+  color: #B21204;
+  font: Arial;
+  font-size: 20px;
+}
+
+#addmenu {
+  background-color: white;
+}
+
+hr {
+  border-top: 5px solid black;
+}
+
+
+/*section - contact me*/
+.contact-me {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.btn-default {
+  background-color: orange;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+}
